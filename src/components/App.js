@@ -1,14 +1,20 @@
 import React from 'react';
-import Nav from './Nav/Nav';
-import Main from './Main/Main'
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+import Nav from './Nav/';
+import Main from './Main/'
 
 class App extends React.Component {
     render() {
         return (
-            <div>
-                <Nav title='Klub przyrodniczy "Budyń"'/>
-                <Main />
-            </div>
+            <Router>
+                <div className="container">
+                    <Nav title='Klub przyrodniczy "Budyń"' />
+                    <Switch >
+                        <Route exact path="/" component={Main}/>
+                    </Switch>
+                </div>
+            </Router>
         );
     }
 }
