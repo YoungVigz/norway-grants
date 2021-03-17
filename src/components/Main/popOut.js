@@ -1,5 +1,6 @@
 import React from 'react'
 import { text } from './text'
+import { ReactComponent as Close } from './close.svg';
 
 class PopOut extends React.Component {
     closePop() {
@@ -10,15 +11,21 @@ class PopOut extends React.Component {
     render() {
         return (
             <>
-                <div className="close" onClick={this.closePop}>X</div>
+                <div className="close" onClick={this.closePop}><Close /></div>
                 <div className="popout_title">
                     {text.map(item => {
-                        if(item.itemId === this.props.itemId) return item.title
+                        let title = ''
+                        if(item.itemId === this.props.itemId) title = item.title
+                        
+                        return title
                     })}
                 </div>
                 <div className="popout_text">
                     {text.map(item => {
-                        if(item.itemId === this.props.itemId) return item.text
+                        let text = ''
+                        if(item.itemId === this.props.itemId) text = item.text
+
+                        return text
                     })}
                 </div>
             </>
