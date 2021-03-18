@@ -22,11 +22,13 @@
     width: 60vw;
     height: 70vh;
     background-color: white;
+    animation: popout 1s ease-in-out; 
 }
 
 .close {
     float: right;
     cursor: pointer;
+    transition: 500ms;
 }
 
 .popout_title {

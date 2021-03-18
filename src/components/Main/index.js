@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
-import './main.scss'
+import './Main.scss'
 import { ReactComponent as Island } from './map.svg'
 
 import PopOut from './popOut';
