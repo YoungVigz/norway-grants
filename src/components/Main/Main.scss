@@ -21,8 +21,10 @@
     transform: translate(-50%, -50%);
     width: 60vw;
     height: 70vh;
-    background-color: white;
-    animation: popout 1s ease-in-out; 
+    background-color: #caebda;
+    color: rgb(37, 37, 37);
+    outline: 4px rgb(0, 154, 165) solid;
+    animation: popout 0.5s ease-in-out; 
 }
 
 .close {
@@ -40,8 +42,15 @@
 }
 
 .popout_text {
-    width: 90%;
-    margin: auto;
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    font-size: 0.9em;
     text-align: justify;
     font-weight: 300;
+}
+
+.popout_image img {
+    float: left;
+    width: 20%;
 }

@@ -28,6 +28,14 @@ class PopOut extends React.Component {
                         return text
                     })}
                 </div>
+                <div className="popout_image">
+                    {text.map(item => {
+                        let symbol = (<img></img>)
+                        if(item.itemId === this.props.itemId) symbol = item.symbol
+                        
+                        return symbol
+                    })}
+                </div>
             </>
         )
     } 
