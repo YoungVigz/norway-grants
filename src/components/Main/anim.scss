@@ -24,6 +24,62 @@
     }
 }
 
+#fan_right {
+    animation: fans 4s linear infinite;
+    transform-origin: 51% 67%;
+    transform-box: fill-box;
+}
+
+#fan_left {
+    animation: fans 4s linear infinite;
+    transform-origin: 51% 67%;
+    transform-box: fill-box;
+}
+
+#light1 {
+    animation: light 1s infinite;
+}
+
+#light2 {
+    animation: light 1s infinite;
+    animation-delay: 0.5s;
+}
+
+#light3 {
+    animation: light 1s infinite;
+}
+
+#light4 {
+    animation: light 1s infinite;
+    animation-delay: 0.5s;
+}
+
+
+
+@keyframes light{
+    0% {
+        fill: #A8CD8D;
+    }
+
+    50% {
+        fill: #e1ffcc;
+    }
+
+    100% {
+        fill: #A8CD8D;
+    }
+}
+
+@keyframes fans {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
 .close:hover {
     transform: scale(1.2);
 }
