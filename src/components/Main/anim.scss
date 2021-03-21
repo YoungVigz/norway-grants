@@ -87,3 +87,19 @@
 #particles {
     animation: arrow 2s ease-in-out infinite;
 }
+
+.popout_image img {
+    animation: pulse_symbol 3s ease-in-out infinite;
+}
+
+@keyframes pulse_symbol {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
