@@ -28,7 +28,7 @@
     }
 }
 
-@keyframes popout_textappear {
+@keyframes popout_appear {
     0% {
         opacity: 0;
     }
@@ -101,8 +101,15 @@
     animation: arrow 2s ease-in-out infinite;
 }
 
-.popout_image img {
-    animation: pulse_symbol 3s ease-in-out infinite;
+.popout_text {
+    animation: popout_appear 2s ease-in-out;
+}
+
+.popout_image {
+    animation: popout_appear 2s ease-in-out;
+    img {
+        animation: pulse_symbol 3s linear infinite;
+    }
 }
 
 @keyframes pulse_symbol {
@@ -110,7 +117,7 @@
         transform: scale(1);
     }
     50% {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
     100% {
         transform: scale(1);

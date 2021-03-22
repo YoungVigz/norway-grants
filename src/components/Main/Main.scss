@@ -51,18 +51,25 @@
     display: inline;
     width: 40%;
     margin-left: 0;
-    font-size: 0.9em;
+    font-size: 1.1em;
     text-align: justify;
     font-weight: 300;
-    animation: popout_textappear 2s ease-in-out;
 }
 
 .popout_image {
-    float: left;
-    width: 50px;
-    height: 60px;
+    width: 10%;
+    height: 10%;
+    margin-right: 10px;
+
+    img {
+        width: auto;
+        margin: auto;
+    }
 }
-.popout_image img {
-    height: 50px;
-    margin: auto;
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
 }

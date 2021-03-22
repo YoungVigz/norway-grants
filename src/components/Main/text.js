@@ -1,12 +1,14 @@
 import pront from './popOut_Symbols/pront.png'
+import atom from './popOut_Symbols/atom.svg'
+import potka from './popOut_Symbols/potka.svg'
 
 export const text = [
     {
         itemId: "arrow_lab",
         title: "Research and scholarships",
         text: "Investment in education, training and vocational training for skills and lifelong learning is one of the key objectives of the EU cohesion policy. Increasing both the quality and relevance of education/training at all levels has been identified as crucial in regard to this objective. Reinforcing the link between education, research and innovation, and the world of work, is a key driver for growth and job creation. Having a work force that possesses the required skills is essential both for growth and employment, especially of young people. The transition from education and training to employment for young people can be stimulated through targeted schemes such as quality dual learning, traineeships, apprenticeships, and work placements. Valuable skills can also be promoted through measures that support youth entrepreneurship.",
-        symbol1: (<img src={pront}/>),
-        symbol2: (<img src={pront}/>),    
+        symbol1: (<img src={atom}/>),
+        symbol2: (<img src={potka}/>),    
     },
     {
         itemId: "arrow_fan",
