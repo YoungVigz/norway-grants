@@ -20,21 +20,31 @@ class PopOut extends React.Component {
                         return title
                     })}
                 </div>
-                <div className="popout_text">
-                    {text.map(item => {
-                        let text = ''
-                        if(item.itemId === this.props.itemId) text = item.text
-
-                        return text
-                    })}
-                </div>
-                <div className="popout_image">
-                    {text.map(item => {
-                        let symbol = (<img></img>)
-                        if(item.itemId === this.props.itemId) symbol = item.symbol
+                <div className="container-text">
+                    <div className="popout_image">
+                        {text.map(item => {
+                            let symbol1 = (<img></img>)
+                            if(item.itemId === this.props.itemId) symbol1 = item.symbol1
                         
-                        return symbol
-                    })}
+                            return symbol1
+                        })}
+                    </div>
+                    <div className="popout_text">
+                        {text.map(item => {
+                            let text = ''
+                            if(item.itemId === this.props.itemId) text = item.text
+
+                            return text
+                        })}
+                    </div>
+                    <div className="popout_image">
+                        {text.map(item => {
+                            let symbol2 = (<img></img>)
+                            if(item.itemId === this.props.itemId) symbol2 = item.symbol2
+                        
+                            return symbol2
+                        })}
+                    </div>
                 </div>
             </>
         )

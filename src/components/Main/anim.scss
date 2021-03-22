@@ -17,6 +17,19 @@
 
 @keyframes popout {
     0% {
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+    100% {
+        width: 60vw;
+        height: 70vh;
+        opacity: 1;
+    }
+}
+
+@keyframes popout_textappear {
+    0% {
         opacity: 0;
     }
     100% {
