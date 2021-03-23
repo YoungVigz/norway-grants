@@ -67,7 +67,67 @@
     animation-delay: 0.5s;
 }
 
+$time: 1s;
 
+
+#Group_69 {
+    animation: wtf $time ease infinite;
+}
+
+#Group_70 {
+    animation: wtf $time ease infinite;
+    animation-delay: 0.2s;
+}
+
+#Group_71 {
+    animation: wtf $time ease infinite;
+    animation-delay: 0.4s;
+}
+
+#Group_72 {
+    animation: wtf $time ease infinite;
+}
+
+@keyframes wtf {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-3px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+#Vector_1035 {
+    animation: labLight 3s infinite ease;
+}
+
+@keyframes labLight {
+    0% {
+        fill: #B69C57;
+    }
+
+    30% {
+        fill: #f0d794;
+    }
+
+    50% {
+        fill: #B69C57;
+    }
+
+    70% {
+        fill: #f0d794;
+    }
+
+    100% {
+        fill: #B69C57;
+    }
+}
 
 @keyframes light{
     0% {
@@ -107,9 +167,6 @@
 
 .popout_image {
     animation: popout_appear 2s ease-in-out;
-    img {
-        animation: pulse_symbol 3s linear infinite;
-    }
 }
 
 @keyframes pulse_symbol {
