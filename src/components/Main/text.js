@@ -19,13 +19,13 @@ export const text = [
         itemId: "arrow_fan",
         title: "Environmental protection and green technology",
         text: "The European energy sector is currently facing the challenge of moving from the use of fossil fuels and high energy consumption to an increased use of renewable energy and high energy efficiency. This move is fundamental for reducing greenhouse gas emissions. Otherwise, Europe will not be able to meet its commitments to reduce emissions. Iceland, Liechtenstein and Norway are committed to international efforts to tackle climate change, a commitment shared with the European Union. The EEA and Norway Grants will fund programmes focusing on renewable energy, energy security and energy efficiency in line with the Energy Union objectives and the Europe 2020 strategy targets of 20% reduction of greenhouse gas emission, 20% of energy from renewables and 20% increase in energy efficiency.",
-        symbol1: (<img src={pront}/>),  
+        symbol1: (<img src={prad}/>),  
     },
     {
         itemId: "arrow_flag",
         title: "Worthy Work and Tripartite Dialogue",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare ligula ante, in vulputate felis sagittis euismod. Curabitur consequat quam nisi, vel vehicula dui pharetra eu. Donec et hendrerit risus, et accumsan nulla. Proin risus lectus, pretium et dui dapibus, hendrerit accumsan nisl. Pellentesque convallis, velit non pellentesque dignissim, nisl quam suscipit lorem, eget lobortis nulla mauris sagittis nunc. Nunc justo neque, iaculis in lobortis sed, sollicitudin id leo. Sed et metus eros. Mauris euismod molestie turpis vitae sodales. Nam eleifend posuere dolor, et sodales odio pharetra at. Sed nec facilisis ex. Quisque vitae sagittis magna. Integer venenatis blandit tempor. Quisque sit amet fermentum ligula.",
-        symbol1: (<img src={pront}/>), 
+        symbol1: (<img src={prad}/>), 
     },
     {
         itemId: "arrow_people",
