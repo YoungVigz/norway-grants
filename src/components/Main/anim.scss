@@ -107,9 +107,6 @@
 
 .popout_image {
     animation: popout_appear 2s ease-in-out;
-    img {
-        animation: pulse_symbol 3s linear infinite;
-    }
 }
 
 @keyframes pulse_symbol {
