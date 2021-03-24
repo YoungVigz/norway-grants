@@ -168,15 +168,3 @@ $time: 1s;
 .popout_image {
     animation: popout_appear 2s ease-in-out;
 }
-
-@keyframes pulse_symbol {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.05);
-    }
-    100% {
-        transform: scale(1);
-    }
-}

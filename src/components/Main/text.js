@@ -1,12 +1,10 @@
 import atom from './popOut_Symbols/atom.svg'
-import potka from './popOut_Symbols/potka.svg'
 
-import pront from './popOut_Symbols/pront.png'
 import prad from './popOut_Symbols/prad.svg'
 
-import torba from './popOut_Symbols/torba.svg'
-
 import maski from './popOut_Symbols/maski.svg'
+
+import banknot from './popOut_Symbols/banknot.svg'
 
 export const text = [
     {
@@ -31,6 +29,7 @@ export const text = [
         itemId: "arrow_people",
         title: "Social and regional development",
         text: "According to the EU, people are at risk of living in poverty if their income falls below 60% of median income in the country where they live. In 2011, more than 119 million people – 24% of the EU population – were at risk of poverty. The Europe 2020 strategy aims to reduce this number by 20 million by 2020. Special attention is paid to measures aimed at those running the highest risk of poverty and social exclusion: the unemployed and low-skilled, non-EU migrants and single parent families. There is an urgent need to address youth unemployment (23% in EU countries in 2013) and the unemployment of cultural and ethnic minorities and non-EU migrants. The EEA and Norway Grants target the challenges that the most vulnerable regions in the beneficiary countries are currently facing. The Grants do this by providing support to help address poverty at the root causes: lack of job prospects, lack of job capacity and problems leading to social exclusion. The support aims to empower communities to develop innovative, inclusive and bottom-up approaches to involve people in the development of their community and create better prospects for the disadvantaged. It also aims to stimulate knowledge exchange between municipalities through networking and policy exchanges. The Europe 2020 strategy and the EU’s cohesion policy take account of the crucial role Europe’s cities and regions play for future smart, sustainable and inclusive growth. Addressing poverty is a key priority in this strategy.",
+        symbol1: (<img src={banknot}/>),
     },
     {
         itemId: "arrow_cinema",
