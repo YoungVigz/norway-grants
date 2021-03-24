@@ -1,17 +1,9 @@
 import atom from './popOut_Symbols/atom.svg'
-<<<<<<< HEAD
+
+import dialog from './popOut_Symbols/dialog.svg'
 
 import prad from './popOut_Symbols/prad.svg'
 
-=======
-//import potka from './popOut_Symbols/potka.svg'
-
-//import pront from './popOut_Symbols/pront.png'
-import prad from './popOut_Symbols/prad.svg'
-
-//import torba from './popOut_Symbols/torba.svg'
-
->>>>>>> 7012953a211a9bc12f91743905f3399e5c1b94bb
 import maski from './popOut_Symbols/maski.svg'
 
 import banknot from './popOut_Symbols/banknot.svg'
@@ -20,25 +12,20 @@ export const text = [
     {
         itemId: "arrow_lab",
         title: "Research and scholarships",
-        text: "Investment in education, training and vocational training for skills and lifelong learning is one of the key objectives of the EU cohesion policy. Increasing both the quality and relevance of education/training at all levels has been identified as crucial in regard to this objective. Reinforcing the link between education, research and innovation, and the world of work, is a key driver for growth and job creation. Having a work force that possesses the required skills is essential both for growth and employment, especially of young people. The transition from education and training to employment for young people can be stimulated through targeted schemes such as quality dual learning, traineeships, apprenticeships, and work placements. Valuable skills can also be promoted through measures that support youth entrepreneurship.",
+        text: "Social and economic development in Europe depends on research and innovation. Increasing and strengthening research investments are priorities in all European countries. Europe 2020 has a goal of increasing research and development (R&D) investments to 3% of GDP. Individual EU Member States and EEA EFTA countries have set specific national targets. European and international cooperation in research and innovation is a priority shared by all European countries. Transnational European research cooperation is promoted through the EU Framework Programme for research and innovation, Horizon 2020. However, limited economic resources and the instability of research funding pose special challenges to beneficiary countries, both in meeting their R&D policy goals and in fully participating in international cooperation. The European Research Area (ERA) promotes transnational European research cooperation and is part of the Europe 2020 Innovation Union Flagship Initiative, a key instrument in achieving the goals set out in the Europe 2020 strategy for jobs and growth.",
         symbol1: (<img src={atom} alt="error"/>),    
     },
     {
         itemId: "arrow_fan",
         title: "Environmental protection and green technology",
-<<<<<<< HEAD
         text: "The European energy sector is currently facing the challenge of moving from the use of fossil fuels and high energy consumption to an increased use of renewable energy and high energy efficiency. This move is fundamental for reducing greenhouse gas emissions. Otherwise, Europe will not be able to meet its commitments to reduce emissions. Iceland, Liechtenstein and Norway are committed to international efforts to tackle climate change, a commitment shared with the European Union. The EEA and Norway Grants will fund programmes focusing on renewable energy, energy security and energy efficiency in line with the Energy Union objectives and the Europe 2020 strategy targets of 20% reduction of greenhouse gas emission, 20% of energy from renewables and 20% increase in energy efficiency. Well-functioning and efficient energy markets – with adequate infrastructure and an effective legislative framework – are preconditions for security of supply, and for developing an effective climate policy in Europe. This calls for a climate change-focused energy model. Such a model will not only address the need to mitigate climate change: a push towards less carbon intensive economies will also promote research and innovation in climate-friendly technology. It will create job opportunities in sectors where a highly skilled workforce is needed. Promoting the use of domestic renewable energy and less carbon intensive technologies is therefore a key element for a more competitive Europe.",
-        symbol1: (<img src={prad}/>),  
-=======
-        text: "The European energy sector is currently facing the challenge of moving from the use of fossil fuels and high energy consumption to an increased use of renewable energy and high energy efficiency. This move is fundamental for reducing greenhouse gas emissions. Otherwise, Europe will not be able to meet its commitments to reduce emissions. Iceland, Liechtenstein and Norway are committed to international efforts to tackle climate change, a commitment shared with the European Union. The EEA and Norway Grants will fund programmes focusing on renewable energy, energy security and energy efficiency in line with the Energy Union objectives and the Europe 2020 strategy targets of 20% reduction of greenhouse gas emission, 20% of energy from renewables and 20% increase in energy efficiency.",
-        symbol1: (<img src={prad} alt="error"/>),  
->>>>>>> 7012953a211a9bc12f91743905f3399e5c1b94bb
+        symbol1: (<img src={prad} alt="error"/>),
     },
     {
         itemId: "arrow_flag",
         title: "Worthy Work and Tripartite Dialogue",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ornare ligula ante, in vulputate felis sagittis euismod. Curabitur consequat quam nisi, vel vehicula dui pharetra eu. Donec et hendrerit risus, et accumsan nulla. Proin risus lectus, pretium et dui dapibus, hendrerit accumsan nisl. Pellentesque convallis, velit non pellentesque dignissim, nisl quam suscipit lorem, eget lobortis nulla mauris sagittis nunc. Nunc justo neque, iaculis in lobortis sed, sollicitudin id leo. Sed et metus eros. Mauris euismod molestie turpis vitae sodales. Nam eleifend posuere dolor, et sodales odio pharetra at. Sed nec facilisis ex. Quisque vitae sagittis magna. Integer venenatis blandit tempor. Quisque sit amet fermentum ligula.",
-        symbol1: (<img src={prad} alt="error"/>), 
+        text: "Norway and the EU support the principles of social dialogue – the dialogue between workers and employers – and social dialogue is a key element of the Nordic social model. This programme area supports strengthened dialogue and ensures that beneficiary countries are better placed to deal with the challenges of high unemployment and to establish decent work objectives, such as non-discrimination and receiving a living wage. The programme area supports the objectives of increased employment and the EU’s Social Europe Initiative under the framework of Europe 2020. The programme area also builds on the International Labour Organisation’s (ILO) Decent Work Agenda. Decent work covers social dialogue, strengthened rights of employees, employment and social protection. The ILO encourages tripartite cooperation to promote harmonious labour relations. Tripartite cooperation brings employers, employees and government together to collaborate, consult, discuss and resolve common concerns related to employment. A tripartite approach has the advantage of informing people and thereby enable them to help design and implement national policies that will achieve fair terms and working conditions that are favourable for all.",
+        symbol1: (<img src={dialog} alt="error"/>), 
     },
     {
         itemId: "arrow_people",
@@ -49,7 +36,7 @@ export const text = [
     {
         itemId: "arrow_cinema",
         title: "Cultural heritage",
-        text: "The EEA and Norway Grants aim at broadening people’s access to culture, at promoting cultural diversity, and at strengthening intercultural dialogue. The importance of media literacy, intercultural skills and other democratic competences is underlined in the Secretary General of the Council of Europe report “State of democracy, human rights and rule of law in Europe. The EEA and Norway Grants stimulate the safeguarding of cultural heritage, cultural entrepreneurship and cultural cooperation because of the sector’s role in local and regional development, capacity development and social inclusion. The Grants recognise the sector’s potential as a driver of economic and social innovation in and outside of the cultural and creative sectors. They acknowledge that the cultural and creative sectors also play a role in stimulating social inclusion and combatting discrimination; they help forge solidarity between people and strengthen democracy. Across Europe there is a growing concern related to radicalism and violent extremism. Culture plays a role in counterbalancing this due to its role in stimulating greater mutual understanding.",
+        text: "Culture’s intrinsic value is widely recognised. Beyond this value the cultural and creative sectors are important drivers of economic growth, job development and social inclusion. In its impact assessment for the EU Creative Europe programme, the European Commission underlines the transformative economic and social power of culture: the cultural and creative sectors account for approximately 4.5% of the Union's GDP (2008) and employ some 3.8% of its workforce. These sectors trigger spill-overs in other economic areas such as tourism. They fuel the development of innovative content for ICT and greatly contribute to education, social inclusion and social innovation. The EEA and Norway Grants stimulate the safeguarding of cultural heritage, cultural entrepreneurship and cultural cooperation because of the sector’s role in local and regional development, capacity development and social inclusion. The Grants recognise the sector’s potential as a driver of economic and social innovation in and outside of the cultural and creative sectors. They acknowledge that the cultural and creative sectors also play a role in stimulating social inclusion and combatting discrimination; they help forge solidarity between people and strengthen democracy. Across Europe there is a growing concern related to radicalism and violent extremism. Culture plays a role in counterbalancing this due to its role in stimulating greater mutual understanding.",
         symbol1: (<img src={maski} alt="error"/>),
     },
 ]
