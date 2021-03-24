@@ -2,15 +2,14 @@
 
 .island-container {
     width: 100%;
-    height: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
+    position: absolute;
+    top: 10%;
 }
 
 .island {
     width: 100%;
-    height: 100%;
+    height: 90%;
 }
 
 #popout {   
@@ -26,6 +25,7 @@
     color: rgb(37, 37, 37);
     outline: 4px rgb(0, 154, 165) solid;
     animation: popout 0.5s ease-in-out; 
+    z-index: 5;
 }
 
 .close {
@@ -72,4 +72,11 @@
 }
 .right {
     float: right;
+}
+
+.footer {
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    color: #444;
 }

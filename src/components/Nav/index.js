@@ -1,11 +1,10 @@
 import React from 'react';
 import './nav.scss'
+import Logo from '../../utils/eeagrants_normal.png'
 
-function Nav({title}) {
+function Nav() {
     return (
-        <div className="nav-list">
-            <div className="nav-list-title">{title}</div>
-        </div>
+        <img className="nav" src={Logo} alt="error" />
     );
 }
 
