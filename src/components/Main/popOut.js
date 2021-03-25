@@ -5,9 +5,14 @@ import { ReactComponent as Close } from './close.svg';
 class PopOut extends React.Component {
     closePop() {
         const pop = document.querySelector('#popout')
-        pop.style.display = 'none'
-    }
+        pop.classList.add('closing')
+        setTimeout(() => {
+            pop.style.display = 'none'
+            pop.classList.remove('closing')
+        }, 1000)
 
+    }
+    
     render() {
         return (
             <>
