@@ -14,16 +14,19 @@
         transform: translateY(0px);
     }
 }
-
+/*
 @keyframes popout {
     0% {
         width: 0;
         height: 0;
         opacity: 0;
     }
+    50% {
+        width: 900px;
+        height: 0;
+    }
     100% {
-        width: 60vw;
-        height: 70vh;
+        height: 400px;
         opacity: 1;
     }
 }
@@ -35,7 +38,7 @@
     100% {
         opacity: 1;
     }
-}
+}*/
 
 #fan_right {
     animation: fans 4s linear infinite;
@@ -168,19 +171,6 @@ $time: 1s;
 .popout_image {
     animation: popout_appear 2s ease-in-out;
 }
-
-@keyframes pulse_symbol {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.05);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
 
 // flagsss
 

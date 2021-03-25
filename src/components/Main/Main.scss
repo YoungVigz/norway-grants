@@ -22,14 +22,14 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 60vw;
-    height: 80vh;
+    width: 900px;
     background-color: white;
     background-color: #d9ece2;
     color: rgb(37, 37, 37);
-    outline: 4px rgb(0, 154, 165) solid;
-    animation: popout 0.5s ease-in-out;
+    outline: 4px rgb(221, 167, 19) solid;
+    //animation: popout 1s ease-in-out;
     z-index: 5;
+    padding-bottom: 50px;
 }
 
 .close {
@@ -57,25 +57,22 @@
     margin-left: 0;
     font-size: 1.1em;
     text-align: justify;
+    text-justify: center;
     font-weight: 300;
 }
 
 .popout_image {
+    display: flex;
+    float: left;
     width: 10%;
-    height: 10%;
     margin-right: 10px;
-
+    object-fit: contain;
     img {
-        width: auto;
         margin: auto;
     }
-}
-
-.left {
-    float: left;
-}
-.right {
-    float: right;
+    .piorun {
+        height: 100px;
+    }
 }
 
 .footer {
