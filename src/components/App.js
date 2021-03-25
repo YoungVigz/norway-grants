@@ -19,7 +19,7 @@ class App extends React.Component {
         return (
             <Router>
                 <div className="container">
-                    <div className="error">Your screen is too small like your pp</div>
+                    <div className="error">Your screen is too small</div>
                     <Nav />
                     <Switch >
                         <Route exact path="/" component={Main}/>
